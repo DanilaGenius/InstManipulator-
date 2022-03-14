@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles/styles.css" rel="stylesheet">
+    <title>for Egor</title>
+  </head>
+  <body>
+    <div class="forEgor">
+      <form class="forEgor__form" action="">
+          <label for="selectOfBotTxt">File with bots .txt</label>
+          <input type="file" id="selectOfBotTxt">
+<!-- 
+          <label for="findOfFoulderImgs">Foulder of imgs</label>
+          <input type="file" id="findOfFoulderImgs"> -->
+
+          <label for="comment">Comment under photo</label>
+          <input type="text" id="comment">
+      </form>
+
+      <div class="forEgorBtns">
+          <button class="forEgor__btn" id="btnUploadImgs">Upload photos</button>
+          <button  class="forEgor__btn" id="btnParserFile">Create bots.json</button>
+          <button  class="forEgor__btn" id="btnUploadInList">Add in list with bots.json</button>
+      </div>
+
+      <div class="forEgor__console-name">Console:</div>
+      <div class="forEgor__console" id="console"></div>
+
+      <div class="forEgor__list-name">List:</div>
+
+      <div class="forEgor__list list " id="list">
+          <div class="list__title">
+              <div class="list__title-num list__elem">
+                  <div class="list__title-title">ID</div>
+              </div>
+              <div class="list__title-login list__elem">
+                  <div class="list__title-title" id="listElem-login-title">login</div>
+              </div>
+              <div class="list__title-pass list__elem">
+                  <div class="list__title-title">password</div>
+              </div>
+              <div class="list__title-progress list__elem">
+                  <div class="list__title-title">progress</div>
+              </div>
+              <div class="list__title-imgs list__elem">
+                <div class="list__title-title">Foulder Photos</div>
+              </div>
+            </div>
+          
+<!-- 
+          <div class="list__elems selected">
+              <div class="list__elems-num list__elem" id="listElem"> 
+                  <div class="list__elems-elem">1</div>
+              </div>
+              <div class="list__elems-login list__elem">
+                  <div class="list__elems-elem">12312sf</div>
+              </div>
+              <div class="list__elems-pass list__elem">
+                  <div class="list__elems-elem">gfdsgsd</div>
+              </div>
+              <div class="list__elems-progress list__elem">
+                  <div class="list__elems-elem">1/21312</div>
+              </div>
+
+               <div class="list__elems-imgs list__elem">
+                  <div class="list__elems-elem">
+                    <input  class="list__elems-select" type="file" id="selectOfFoulderImgs"  webkitdirectory />
+                  </div>
+              </div>
+          </div> -->
+        </div>
+
+      </div>
+
+  </div>
+  
+
+  
+  <script type="module" src="./components/globalVariables.js"></script>
+  <script src="./main.js"></script>
+ 
+  </body>
+</html>

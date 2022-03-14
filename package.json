@@ -1,0 +1,17 @@
+{
+  "name": "botdanila",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s1": "node index",
+    "start": "electron ."
+  },
+  "author": "stukach danila",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^17.1.0",
+    "puppeteer": "^13.3.2"
+  }
+}
